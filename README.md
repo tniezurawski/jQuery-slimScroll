@@ -10,12 +10,12 @@ At 20.05.2016 tniezurawski added enable/disable option to slimscroll to get cont
 
 1. save the reference to the object:
 
-- `var myFirstScroll = $('.elements').slimScroll(options).get(0);`
+  - `var myFirstScroll = $('.elements').slimScroll(options).get(0);`
 
 2. From whatever moment you prefer, please use:
 
-- `myFirstScroll.enabled = false;` - to stop slimscroll from scrolling
-- `myFirstScroll.enabled = true;` - to let the slimscroll scrolling again
+  - `myFirstScroll.enabled = false;` - to stop slimscroll from scrolling
+  - `myFirstScroll.enabled = true;` - to let the slimscroll scrolling again
 
 
 ### ORIGINAL README:
