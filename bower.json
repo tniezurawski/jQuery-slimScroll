@@ -15,11 +15,12 @@
   ],
   "homepage": "http://rocha.la/jQuery-slimScroll/",
   "authors": [
-    { "name": "Piotr Rochala", "homepage": "http://rocha.la/" }
+    { "name": "Piotr Rochala", "homepage": "http://rocha.la/" },
+    { "name": "Tomasz Nieżurawski", "homepage": "http://niezurawski.pl/"}
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rochal/jQuery-slimScroll.git"
+    "url": "https://github.com/tniezurawski/jQuery-slimScroll.git"
   },
   "main": [
     "jquery.slimscroll.js",
