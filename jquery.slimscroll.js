@@ -6,6 +6,9 @@
  *
  * 20.04.2016
  * - Enable/Disable option added by tniezurawski
+ *
+ * 09.09.2016
+ * - Animate option added by tniezurawski
  */
 (function($) {
 
@@ -81,7 +84,10 @@
         railBorderRadius : '7px',
 
         // start and stops scrolling
-        enabled: true
+        enabled: true,
+
+        // sets animation status on a given scroll
+        animate: false
       };
 
       var o = $.extend(defaults, options);
@@ -382,7 +388,11 @@
           }
 
           // scroll content
-          me.scrollTop(delta);
+          if (o.animate){
+            me.animate({ scrollTop: delta });
+          }else{
+            me.scrollTop(delta);
+          }
 
           // fire scrolling event
           me.trigger('slimscrolling', ~~delta);
