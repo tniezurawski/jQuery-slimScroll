@@ -1,12 +1,24 @@
 # What is slimScroll?
 
-### EDIT:
+### EDIT CHANGELOG:
 
 Still all credits to Piotr Rochala.
 
-At 20.05.2016 tniezurawski added enable/disable option to slimscroll to get control over it.
+## 09.09.2016
+- added animate option for animating scrollTo effect.
+- version 1.3.8 released
 
-#### Usage
+## 20.05.2016
+- added enable/disable option to slimscroll to get control over it. 
+
+### New features Usage
+
+## Animate scrollTo
+
+1. Add `animate: true` option, like this:
+- `$element.slimScroll({ scrollTo: 100, animate: true });`
+
+## Enable/disable Slimscroll
 
 1. save the reference to the object:
 
