@@ -11,12 +11,13 @@ Still all credits to Piotr Rochala.
 ## 20.05.2016
 - added enable/disable option to slimscroll to get control over it. 
 
-### New features Usage
+### NEW FEATURES USAGE
 
 ## Animate scrollTo
 
 1. Add `animate: true` option, like this:
-- `$element.slimScroll({ scrollTo: 100, animate: true });`
+  
+  - `$element.slimScroll({ scrollTo: 100, animate: true });`
 
 ## Enable/disable Slimscroll
 
